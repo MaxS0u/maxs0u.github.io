@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -23,52 +23,37 @@
     </nav>
 
     <section class="hero">
-        <div class="hero-background"></div>
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">
-                    <span class="line">Créons ensemble</span>
-                    <span class="line">votre vitrine digitale</span>
-                </h1>
-                <p class="hero-description">
-                    Des sites web élégants qui captivent vos visiteurs et convertissent vos prospects en clients. 
-                    Design sur-mesure, performance optimale, résultats garantis.
-                </p>
-                <div class="hero-cta">
-                    <a href="projects1.html" class="btn btn-primary">Découvrir nos réalisations</a>
-                    <a href="contact.html" class="btn btn-secondary">Démarrer un projet</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="floating-card card-1">
-                    <div class="card-icon">🎨</div>
-                    <h3>Design Unique</h3>
-                </div>
-                <div class="floating-card card-2">
-                    <div class="card-icon">⚡</div>
-                    <h3>Performance</h3>
-                </div>
-                <div class="floating-card card-3">
-                    <div class="card-icon">📱</div>
-                    <h3>Responsive</h3>
-                </div>
+        <div class="container">
+            <p class="hero-label">Agence Web · Paris, France</p>
+            <h1 class="hero-title">
+                Votre vitrine digitale,<br>sur-mesure.
+            </h1>
+            <p class="hero-description">
+                Des sites web élégants qui captivent vos visiteurs et convertissent vos prospects en clients. Design soigné, performance optimale.
+            </p>
+            <div class="hero-cta">
+                <a href="projects1.html" class="btn btn-primary">Découvrir nos réalisations</a>
+                <a href="contact.html" class="btn btn-outline">Démarrer un projet</a>
             </div>
         </div>
     </section>
 
     <section class="services">
         <div class="container">
-            <h2 class="section-title">Notre expertise</h2>
+            <div class="services-header reveal">
+                <span class="section-label">Notre expertise</span>
+                <h2 class="section-title">Ce que nous faisons</h2>
+            </div>
             <div class="services-grid">
-                <div class="service-card" data-tilt>
-                    <div class="service-icon">💼</div>
+                <div class="service-card reveal">
+                    <span class="service-number">01</span>
                     <h3>Sites Vitrines Classic</h3>
                     <p>Pour présenter votre entreprise avec élégance et professionnalisme. Design épuré, navigation intuitive.</p>
                     <a href="projects1.html" class="service-link">Voir les projets →</a>
                 </div>
-                <div class="service-card" data-tilt>
-                    <div class="service-icon">🚀</div>
-                    <h3>Accompagnement</h3>
+                <div class="service-card reveal">
+                    <span class="service-number">02</span>
+                    <h3>Accompagnement complet</h3>
                     <p>De la conception au lancement : stratégie, design, développement, hébergement et maintenance.</p>
                     <a href="about.html" class="service-link">En savoir plus →</a>
                 </div>
@@ -79,15 +64,15 @@
     <section class="stats">
         <div class="container">
             <div class="stats-grid">
-                <div class="stat-item">
+                <div class="stat-item reveal">
                     <div class="stat-number" data-count="50">0</div>
                     <div class="stat-label">Projets réalisés</div>
                 </div>
-                <div class="stat-item">
+                <div class="stat-item reveal">
                     <div class="stat-number" data-count="98">0</div>
                     <div class="stat-label">% Clients satisfaits</div>
                 </div>
-                <div class="stat-item">
+                <div class="stat-item reveal">
                     <div class="stat-number" data-count="5">0</div>
                     <div class="stat-label">Ans d'expérience</div>
                 </div>
@@ -97,7 +82,7 @@
 
     <section class="cta-section">
         <div class="container">
-            <div class="cta-content">
+            <div class="cta-content reveal">
                 <h2>Prêt à donner vie à votre projet ?</h2>
                 <p>Discutons de vos besoins et créons ensemble le site qui vous ressemble</p>
                 <a href="contact.html" class="btn btn-primary btn-large">Commencer maintenant</a>
@@ -132,6 +117,6 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
